@@ -12,6 +12,7 @@
     :root{
         --gray-800: #1e293b;
         --gray-600: #475569;
+        --purple: #7c3aed;
     }
 
     /* numero == 20 */
@@ -32,6 +33,10 @@
     main {
         padding-inline: 1.5rem;
     }
+    .descricao {
+    
+        margin-bottom: 2.5rem;
+    }
 
     .descricao h1 {
         color: var(--gray-800);
@@ -42,6 +47,31 @@
     .descricao p {
         font-size: 0.8125rem;
         color: var(--gray-600);
+
+    }
+    
+    .input-box {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-box div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .login label {
+        font-size: 0.875 ;
+        color: var(--gray-800);
+        font-weight: 600;
+
+    }
+
+    .login a {
+        color: var(--purple);
+        text-decoration: none;
     }
 
     /* nome da cor , rgb, rgba, hex, hs"l,hwb  */
