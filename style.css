@@ -1,16 +1,41 @@
     * {
+        /* reset do css */
         padding: 0;
         margin: 0;
         box-sizing: border-box;
         font-family: 'Titillium Web', sans-serif;
     }
 
+    /* 1 rem == a 16px */
+    /* 40px == a 2.5rem */
+
+    :root{
+        --gray-800: #1e293b;
+        --gray-600: #475569;
+    }
+
+    /* numero == 20 */
+    /* print(numero) */
 
     header {
         background-image: url(./imagens/Rectangle\ 1.png);
         background-size: cover;
         height: 8.375rem;
+
         display: flex;
         justify-content: center;
-        
+        align-items: center;
+
+        margin-bottom: 3.7rem;
     }
+
+    main {
+        padding-inline: 1.5rem;
+    }
+
+    .descricao h1 {
+        color: var(--gray-800);
+        margin-bottom: 1rem;
+    }
+
+    /* nome da cor , rgb, rgba, hex, hsl,hwb  */
