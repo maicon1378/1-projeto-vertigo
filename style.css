@@ -103,15 +103,24 @@
         text-decoration: underline;
     }
     .login button {
-        margin-top: 2.2rem;
-        padding-block: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem ;
+        padding-block: 1.6rem;
         width: 100%;
         background: var(--purple);
         border: none;
         border-radius: 8.4rem;
 
-        font-size: 1.6rem;
+        font-size: 1rem;
         font-weight: 700;
         color: var(--white);
+    }
+    .login > p{
+        color:var(--gray-600);
+    }
+
+    .login > p a {
+       font-weight: 700;
+       font-size: 1rem;
     }
     /* nome da cor , rgb, rgba, hex, hs"l,hwb  */
