@@ -57,7 +57,7 @@
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        margin bottom: 1rem;
+        margin-bottom: 1rem;
         
     }
     
@@ -69,7 +69,7 @@
 
 
     .login label {
-        font-size: 0.875 ;
+        font-size: 0.875rem ;
         color: var(--gray-800);
         font-weight: 600;
 
@@ -109,7 +109,7 @@
         width: 100%;
         background: var(--purple);
         border: none;
-        border-radius: 8.4rem;
+        border-radius: 0.4rem;
 
         font-size: 1rem;
         font-weight: 700;
@@ -123,8 +123,16 @@
        font-weight: 700;
        font-size: 1rem;
     }
+    .dg-desktop {
+        display: none;
+    }
 
     @media(min-width: 1000px) {
+
+        .dg-desktop{
+            display: flex;
+
+        }
         header {
             background: none;
             justify-content: flex-start;
@@ -137,6 +145,14 @@
 
         main {
             padding-inline: 7rem;
+        }
+        .conteudo {
+            width: 100%;
+        }
+        .dg-desktop {
+            display: block;
+            width: 100%;
+
         }
     }   
     
